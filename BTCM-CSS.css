@@ -1,0 +1,478 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;
+  padding:0;}
+#wrapper{
+	width: 100%;
+	height: 1100px;
+	background: rgba(189,189,189,1.00)}
+h1{font-size: 9px;
+	font-family:'Roboto', sans-serif;
+	font-weight:800;
+	margin-top: 5%;
+	margin-left: 3%;
+	word-spacing: 1px}
+ul{font-size: 9px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	margin-top: 3%;
+	margin-left: 3%;
+	word-spacing: 0px}
+span{font-size: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+	margin-top: 3%;
+	margin-left: 3%;
+	word-spacing: 1px}
+.top-bar{
+	width: 65%;
+	height: 80px;
+/*	background: rgba(255,253,0,1.00);*/
+	margin-left: 250px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 15px;
+	
+}
+.Logo-icon{
+	width: 150px;
+	height: 65px;
+	background-image:url("kotobukiya-logo-1.jpg");
+	background-size:cover;
+	background-position: 5%;
+	float: left;
+	margin-top: 0.75%;
+	margin-left: 3%;
+	border-radius: 13px
+}
+.Armored-icon{
+	width: 150px;
+	height: 65px;
+	background-image: url("Armored_Core_logo.png");
+	background-size:cover;
+	float:left;
+	margin-top: 0.75%;
+	margin-left: 1%
+}
+.Cenpic{
+	width: 988px;
+	height: 250px;
+	background: blue;
+	float: left;
+	margin-left: 250px;
+	margin-top: 10px;
+	border-radius: 20px
+}
+.image-container{
+	width: 100%;
+	height: 250px;
+	background-image: url("slide/10218973p.jpg");
+	background-size: 1000px 300px;
+	background-position: top;
+	border-radius: 20px
+}
+#buttonleft{
+	width: 9%;
+	height: 250px;
+	background-color:rgba(17,17,17,0.85);
+	border-radius: 20px 0px 0px 20px;
+	float:left
+}	
+#buttonright{
+	width: 10%;
+	height: 250px;
+	background-color: rgba(17,17,17,0.85);
+	border-radius: 0px 20px 20px 0px;
+	float: right;
+}
+.Body{
+	width: 860px;
+	height: 600px;
+	background:rgba(4,122,14,1.00);
+	float: left;
+	margin-left: 308px;
+	margin-top: 10px;
+	border-radius: 20px
+}
+.boxes{
+	width: 150px;
+	height: 570px;
+/*	background: aqua;*/
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#box1{
+	width: 100px;
+	height: 100px;
+	background: url("slide/Armoredcorex500.jpg");
+	background-position: top;
+	background-size: 350% ;
+	float: left;
+	margin: 10px 0px 0px 25px;
+	box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.7);
+}
+#box2{
+	width: 100px;
+	height: 100px;
+	background: url("slide/AC2_Promotional_Poster2.jpg");
+	background-size:cover;
+	background-position: 200px;
+	float: left;
+	margin: 10px 0px 0px 25px;
+	box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.7);
+}
+#box3{
+	width: 100px;
+	height: 100px;
+	background: url("slide/Official_wallpapers_Armored_Core_3_08.jpg");
+	background-size: cover;
+	float: left;
+	margin: 10px 0px 0px 25px;
+	box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.7);
+}
+#box4{
+	width: 100px;
+	height: 100px;
+	background: url("slide/d3fb823f5ec07b56cd9f33c2baa2d4dd.jpg");
+	background-size: 100px 100px;
+	float: left;
+	margin: 10px 0px 0px 25px;
+	box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.7);
+}#box5{
+	width: 100px;
+	height: 100px;
+	background: url("slide/Armored-Core-For-PC.jpg");
+	background-size: 150px 95px;
+	background-position: center;
+	float: left;
+	margin: 10px 0px 0px 25px;
+	box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.7);}
+
+.banner{
+	width: 650px;
+	height: 90px;
+	background-image: url("slide/Screenshot 2021-06-20 133416.jpg");
+	background-size: cover;
+	background-position:center;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+	border-radius: 20px
+}
+.display{
+	width: 650px;
+	height: 465px;
+	background:rgba(176,176,176,1.00);
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#dis1{
+	width: 120px;
+	height: 120px;
+	background-image: url("slide/10107064a3.jpg");
+	background-size:cover;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px
+}
+#info1{
+	width: 70px;
+	height: 120px;
+	background: grey;
+	float: left;
+	margin-top: 15px;
+	margin-left: 5px
+}
+.boxBuy1{
+	width: 60px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: rgba(40,40,40,1.00);
+	font-size: 15px;
+	color: white;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.boxBuy1:hover{
+	background: White;
+	color: black;
+}
+.boxBuy2{
+	width: 60px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: rgba(40,40,40,1.00);
+	font-size: 15px;
+	color: white;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.boxBuy2:hover{
+	background: White;
+	color: black;
+}
+.boxBuy3{
+	width: 60px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: rgba(40,40,40,1.00);
+	font-size: 15px;
+	color: white;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.boxBuy3:hover{
+	background: White;
+	color: black;
+}
+.boxBuy4{
+	width: 60px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: rgba(40,40,40,1.00);
+	font-size: 15px;
+	color: white;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.boxBuy4:hover{
+	background: White;
+	color: black;
+}
+.boxBuy5{
+	width: 60px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: rgba(40,40,40,1.00);
+	font-size: 15px;
+	color: white;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.boxBuy5:hover{
+	background: White;
+	color: black;
+}
+.boxBuy6{
+	width: 60px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: rgba(40,40,40,1.00);
+	font-size: 15px;
+	color: white;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.boxBuy6:hover{
+	background: White;
+	color: black;
+}
+.boxBuy7{
+	width: 60px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: rgba(40,40,40,1.00);
+	font-size: 15px;
+	color: white;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.boxBuy7:hover{
+	background: White;
+	color: black;
+}
+.boxBuy8{
+	width: 60px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: rgba(40,40,40,1.00);
+	font-size: 15px;
+	color: white;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.boxBuy8:hover{
+	background: White;
+	color: black;
+}
+.boxBuy9{
+	width: 60px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: rgba(40,40,40,1.00);
+	font-size: 15px;
+	color: white;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.boxBuy9:hover{
+	background: White;
+	color: black;
+}
+#dis2{
+	width: 120px;
+	height: 120px;
+	background-image:url("slide/10159299a.jpg");
+	background-size: 120px 120px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px
+}
+#info2{
+	width: 70px;
+	height: 120px;
+	background: grey;
+	float: left;
+	margin-top: 15px;
+	margin-left: 5px}
+#dis3{
+	width: 120px;
+	height: 120px;
+	background-image: url("slide/10173444a2.jpg");
+	background-size: 120px 120px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 15px
+}
+#info3{
+	width: 70px;
+	height: 120px;
+	background: grey;
+	float: left;
+	margin-top: 15px;
+	margin-left: 5px}
+#dis4{
+	width: 120px;
+	height: 120px;
+	background-image: url("slide/10343464a.jpg");
+	background-size: 120px 120px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 30px
+}
+#info4{
+	width: 70px;
+	height: 120px;
+	background: grey;
+	float: left;
+	margin-left: 5px;
+	margin-top: 30px;
+}
+#dis5{
+	width: 120px;
+	height: 120px;
+	background-image: url("slide/10136932a.jpg");
+	background-size: 120px 120px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 30px
+}
+#info5{
+	width: 70px;
+	height: 120px;
+	background: grey;
+	float: left;
+	margin-left: 5px;
+	margin-top: 30px;
+}
+#dis6{
+	width: 120px;
+	height: 120px;
+	background-image: url("slide/10266582a.jpg");
+	background-size: 120px 120px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 30px
+}
+#info6{
+	width: 70px;
+	height: 120px;
+	background: grey;
+	float: left;
+	margin-left: 5px;
+	margin-top: 30px;
+}
+#dis7{
+	width: 120px;
+	height: 120px;
+	background-image: url("slide/10322025a.jpg");
+	background-size: 120px 120px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 30px
+}
+#info7{
+	width: 70px;
+	height: 120px;
+	background: grey;
+	float: left;
+	margin-left: 5px;
+	margin-top: 30px;
+}
+#dis8{
+	width: 120px;
+	height: 120px;
+	background-image:url("slide/10238679a2.jpg");
+	background-size: 120px 120px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 30px
+}
+#info8{
+	width: 70px;
+	height: 120px;
+	background: grey;
+	float: left;
+	margin-left: 5px;
+	margin-top: 30px;
+}
+#dis9{
+	width: 120px;
+	height: 120px;
+	background-image: url("slide/10213776a.jpg");
+	background-size: 120px 120px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 30px
+}
+#info9{
+	width: 70px;
+	height: 120px;
+	background: grey;
+	float: left;
+	margin-left: 5px;
+	margin-top: 30px;
+}.Bottom{
+	width: 988px;
+	height: 100px;
+	background: url("slide/100d5d9191f185eeb98d6e291756954a.jpg");
+	background-size: 998px 150px;
+	float: left;
+	margin-left: 250px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+h3{color:white;
+margin-top: 80px;
+margin-left: 15px;
+font-size: 12px}
